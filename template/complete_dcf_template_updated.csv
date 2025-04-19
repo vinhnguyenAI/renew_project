@@ -1,0 +1,6 @@
+assetName,assetType,location,capacity,capacityYield,degradationRate,availability,contractedPrice,contractedEscalationRate,merchantPrice,merchantEscalationRate,contractedPercentage,regulatoryPrice,discountRate,forecastLength,operatingCost,costInflationRate,taxRate,depreciationMethod,depreciationYears,receivableDays,payableDays,inventoryDays,initialCapex,capexInflationRate,debtAmount,interestRate,terminalValueMethod,terminalGrowthRate,terminalMultiple,inflationRate,opexPerMW,opexEscalationRate,workingCapitalPercent,repaymentTerm,repaymentStartYear
+Solar Asset 1,solar,California,50,85,0.5,98,65,2.5,45,1.5,70.0,0.0,8.5,25.0,350000.0,2.5,21,straight_line,25.0,45,30,15,75000000,1.8,50000000,5.5,perpetuity,1.5,10,,,,,,
+Wind Asset 1,wind,Texas,100,42,0.3,95,55,2.0,40,1.2,60.0,0.0,7.5,20.0,450000.0,2.0,21,straight_line,20.0,45,30,15,100000000,1.5,70000000,5.0,perpetuity,1.0,8,,,,,,
+Battery Asset 1,battery,Nevada,75,95,0.8,99,85,3.0,75,2.0,80.0,0.0,9.0,15.0,250000.0,3.0,21,straight_line,15.0,30,30,10,60000000,2.0,40000000,6.0,perpetuity,2.0,12,,,,,,
+Solar Asset 2,solar,Arizona,60,88,0.4,97,68,2.2,48,1.5,,,,,,,21,,,45,30,15,80000000,1.7,52000000,5.3,perpetuity,1.7,11,2.0,20000.0,2.0,5.0,15.0,1.0
+Wind Asset 2,wind,Iowa,110,45,0.2,96,58,2.1,42,1.8,,,,,,,21,,,45,30,15,105000000,1.6,73000000,4.9,perpetuity,1.2,9,2.1,18000.0,1.9,4.5,15.0,1.0

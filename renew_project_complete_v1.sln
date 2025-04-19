@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCFCalculator", "backend_csharp\DCFCalculator.csproj", "{C2DB7748-3A84-2606-6E54-7D9CDD30CC9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backup", "backup", "{975B2087-CE4E-53AA-FAA0-90ED5DA10DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCFCalculator.Tests", "backup\Tests.disabled\DCFCalculator.Tests.csproj", "{0D8A8639-BE81-64E1-2D85-DD6F818F989A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DB7748-3A84-2606-6E54-7D9CDD30CC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DB7748-3A84-2606-6E54-7D9CDD30CC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DB7748-3A84-2606-6E54-7D9CDD30CC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DB7748-3A84-2606-6E54-7D9CDD30CC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8A8639-BE81-64E1-2D85-DD6F818F989A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8A8639-BE81-64E1-2D85-DD6F818F989A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8A8639-BE81-64E1-2D85-DD6F818F989A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8A8639-BE81-64E1-2D85-DD6F818F989A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D8A8639-BE81-64E1-2D85-DD6F818F989A} = {975B2087-CE4E-53AA-FAA0-90ED5DA10DA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F0E0016-67ED-443F-ABC8-CCB26663AC6E}
+	EndGlobalSection
+EndGlobal
